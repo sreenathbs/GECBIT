@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0";>
+		<title>Check Your Result</title>
+		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	  	<link rel="stylesheet" href="css/bootstrap.min.css">
+	 	<link rel="stylesheet" href="css/style.css">
+	  	<link rel="stylesheet" href="css/responsive.css">
+		<script src="js/jquery.min.js"></script>
+	 	<script src="js/bootstrap.min.js"></script>
+	 	<script src="js/result.js"></script>
+	</head>
+
+	<body>
+
+		<div class="container-fluid result-page-title">
+			<p>Government Engineering College, Thiruvananthapuram</p>
+			<p>Information Technology IT  2016-2020  KTU</p>
+		</div>
+
+		<div class="container-fluid marquee-scroll">
+			<marquee direction = "left" height = "25">
+	   			S2 Results Published.
+	   			S2 Results Published.
+	   			S1 Results Published.
+	   			This service is available only to the students of 2016 batch IT Department, Government Engineering College, Thiruvananthapuram :)
+	   		</marquee>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row" id="flex">
+				<div class="result-left col-xs-3" id="result-left">
+					<div class="result-left-links">
+						<h3>Related Links</h3>
+						<span><br></span>
+						<ul>
+							<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a><span><a href="#">Individual Result</a></span></li>
+							<span><br><br></span>
+							<li><a href="#"><i class="fa fa-users" aria-hidden="true"></i></a><span><a href="#">Group Result</a></span></li>
+							<span><br><br></span>
+							<li><a href="#"><i class="fa fa-pie-chart" aria-hidden="true"></i></a><span><a href="#">Result Analysis</a></span></li>
+							<span><br><br></span>
+							<li><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a><span><a href="#">Resources</a></span></li>
+							<span><br><br></span>
+							<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i></a><span><a href="#">Candidate Portal</a></span></li>
+						</ul>
+					</div>
+					<div>
+						<p>Info: 
+						The default password is your DOB in DDMMYY format.</p>
+					</div>
+				</div>
+
+				<div class="result col-xs-6" id="result">
+					<form class="result-form" name="result-form" method="post" action="result.php" enctype="multipart/form-data" id="result-form">
+						<div class="result-screen">
+							<h1>Check Your Result</h1>
+							<div class="control-group">
+								<input type="text" class="result-field" value="" placeholder="Register No." id="result-registernum" onkeypress="return key(event)" required>
+								<label class="result-field-icon fui-user" for="result-registernum"></label>
+							</div>
+							<div class="control-group">
+								<input type="password" class="result-field" value="" placeholder="password" id="result-password" required>
+								<label class="result-field-icon fui-lock" for="result-password"></label>
+							</div>
+							<div class="control-group">
+								<input type="submit" value="Submit" class="result-field btns"></input>
+							</div>
+							<span class="result-links">
+								<a class="result-legal-disclosure-link" href="#">Legal Disclosure</a>
+								<a class="result-forgot-password-link" href="#">Forgot Password..?</a>
+							</span>
+						</div>
+					</form>
+				</div>
+
+				<div class="result-right col-xs-3" id="result-right">
+					<h3>Notice Board</h3>
+					<div class="result-right-notice-board">
+						<hr>
+			   			<p>S2 Results Published on 07/07/2017</p>
+			   			<hr>
+			   			<p>S2 Results Published on 07/07/2017</p>
+			   			<hr>
+			   			<p>S1 Results Published on 03/04/2017</p>
+			   			<hr>
+			   			<p>S1 Results Published on 03/04/2017</p>
+			   			<hr>
+			   			<span><p>S1 Results Published on 03/04/2017</p>
+			   			<hr>
+			   			<p>S1 Results Published on 03/04/2017</p></span>
+			   		</div>
+			   	</div>
+
+			</div>
+		</div>
+
+		<div class="container-fluid disclaimer">
+			<p><span>Disclaimer:</span> gecbit.tk is not responsible for any inadvertent error that may have crept in the results being published on net. The results published on net are for immediate information to the examinees. These should not be treated as original mark sheets. The GPA, CGPA, Percentage... are not available from the official source. These are calculated according to the procedure published by the University. If you have any privacy concerns regarding your results or if you don't want your results to be displayed here, click on the 'Legal Disclosure' link available in this page to unlist your details.</p>
+		</div>
+
+		<div class="container-fluid footer-content">
+			<div>
+				<p><a href="index.html">GECB IT</a></p>
+	           	<p><span>Made with </span><i class="fa fa-heart"></i></p>
+	           	<p><span>© gecbit.tk</span> 2017. All Rights Reserved</p>
+			</div>
+		</div>
+
+	</body>
+</html>

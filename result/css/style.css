@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+body {
+  font-family: Arial;
+  background-color: #68b5e3;
+  line-height: 1.055;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.result-page-title {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #3e3e3e;
+}
+
+.result-page-title p {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin: 0px;
+}
+
+.marquee-scroll {
+  background-color: whitesmoke;
+  margin-bottom: 5px;
+}
+
+.marquee-scroll marquee {
+  padding: 5px;
+}
+
+.result-left {
+  margin:0px auto 0px auto;
+  padding-top: 10px;
+  height: 400px;
+  background-color: white;
+  border-right-width: 2px;
+  border-right-style: solid;
+}
+
+.result-left-links ul {
+  margin: 0;
+  padding-left: 0px;
+  vertical-align: middle;
+  font-size: 16px;
+  list-style: none;
+}
+
+.result-left-links h3 {
+  margin-left: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.result-left-links a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.result-left-links a:hover {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.result-left-links fa:hover {
+  text-decoration: none;
+  font-size: 120px;
+  color: black;
+}
+
+.result-left p {
+  padding: 10px;
+  margin-top: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: whitesmoke;
+}
+
+.result-right {
+  margin: auto;
+  color: black;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 400px;
+  background-color: white;
+  border-left-width: 2px;
+  border-left-style: solid;
+}
+
+.result-right h3 {
+  font-weight: bold;
+}
+
+.result-right-notice-board {
+  padding-left: 3px;
+}
+
+.result-right p {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.result {
+  margin: auto;
+  height:400px;
+  background-image: url("../img/result-form-bg.png");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.result-screen {
+  border-radius: 5px;
+  line-height: 1.288;
+}
+
+.result-form h1 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.result-form {
+  text-align: center;
+  padding-top: 54px;
+}
+
+.control-group {
+  margin-top: 10px;
+  font-size: 0.1px;
+}
+
+input {
+  text-align: center;
+  background-color: #ECF0F1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 10px 0;
+  width: 250px;
+  transition: border .5s;
+}
+
+input:focus {
+  border: 2px solid #3498DB;
+  box-shadow: none;
+}
+
+.btns {
+  border: 2px solid transparent;
+  background: #006BB3;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 15px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  height:40.8833px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #2980B9;
+}
+
+.result-forgot-password-link {
+  font-size: 11px;
+  margin-left: 111px;
+  color: #3e3e3e;
+  display: block;
+	margin-top: 14px;
+}
+
+.result-legal-disclosure-link {
+  font-size: 11px;
+  margin-right: 80px;
+  color: #3e3e3e;
+  display: block;
+  margin-top: 14px;
+}
+.result-forgot-password-link, .result-legal-disclosure-link {
+  display: inline-block;
+}
+
+.disclaimer {
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 5px;
+  margin-bottom :5px;
+}
+
+.disclaimer p span{
+  font-weight: bold;
+}
+
+.footer-content {
+  background-color:#414042;
+  margin-top:5px;
+  padding: 0px;
+}
+
+.footer-content div {
+  padding-top: 15px;
+  padding-bottom: 9px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-content div i:hover {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-content div a {
+  color: wheat;
+  font-weight: bold;
+}
+
+.footer-content div a:hover {
+  text-decoration: none;
+  font-size: 15px;
+}
+.footer-content div i:hover {
+  font-size: 20px;
+  cursor: pointer;
+  color: orange;
+}
+
+

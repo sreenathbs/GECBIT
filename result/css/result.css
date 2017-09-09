@@ -1,0 +1,89 @@
+		.text-danger strong {
+		    		color: #9f181c;
+				}
+		.receipt-main {
+			background: #ffffff none repeat scroll 0 0;
+			border-bottom: 12px solid #333333;
+			border-top: 12px solid #9f181c;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			padding: 25px 0px 1px 0px !important;
+			position: relative;
+			box-shadow: 0 1px 21px #acacac;
+			color: #333333;
+			font-family: open sans;
+		}
+		.receipt-main h1 {
+			font-size: 32px;
+			font-weight: bolder; !important;
+			text-align: center !important;
+			margin-top: 0px !important;
+		}
+		.receipt-main h2 {
+			font-size: 25px !important;
+			font-weight: 300 !important;
+			text-align: center !important;
+			margin-top: 10px !important;
+		}
+		.receipt-main p {
+			color: #333333;
+			font-family: open sans;
+			line-height: 1.42857;
+			padding-left: 5px;
+		}
+		.receipt-footer h1 {
+			font-size: 15px;
+			font-weight: 400 !important;
+			margin: 0 !important;
+		}
+		.receipt-footer h5 {
+			text-align: center;
+			color: rgb(140, 140, 140);
+		}
+		.receipt-main::after {
+			background: #414143 none repeat scroll 0 0;
+			content: "";
+			height: 5px;
+			left: 0;
+			position: absolute;
+			right: 0;
+			top: -13px;
+		}
+		.receipt-main thead {
+			background: #414143 none repeat scroll 0 0;
+		}
+		.receipt-main thead th {
+			color:#fff;
+		}
+
+		
+		#container {
+			background-color: #dcdcdc;
+		}
+		#result-id {
+			display: none;
+		}
+		.gr {
+			padding-left: 7.5% !important;
+		}
+
+
+		.receipt-main td {
+			padding: 9px 20px;
+			font-size: 13px;
+			font-weight: initial !important;
+		}
+		
+		.receipt-main th {
+			padding: 13px 20px !important;
+		}
+		.solo-ad {
+			padding-top: 10px;
+			color: grey !important;
+		}
+		
+
+
+
+
+		

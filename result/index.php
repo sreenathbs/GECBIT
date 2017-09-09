@@ -89,10 +89,12 @@ for ($i=0; $i<count($rows); $i++)
 	// $sql->execute();
 	// $j += 1;
 
-$sql = $db->prepare("INSERT INTO `result_s$semester`($op) VALUES($qm)");
+
 
 $op = "";
 for ($i=0; $i<count($cols)+1; $i++) {
 	$op .= `$cols[$i]`;
 	$qm .= "?";
 }
+
+$sql = $db->prepare("INSERT INTO `result_s$semester`($op) VALUES($qm)");
